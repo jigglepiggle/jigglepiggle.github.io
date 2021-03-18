@@ -2,18 +2,18 @@
     height: 350px;
     text-align: center;
 }
-.body {
+body {
     font-family: "Lato", Helvetica, sans-serif;
     font-weight: 100;
     color: orange;
     font-size: 1.5em;
 }
-.footer {
+footer {
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.p {
+p {
    padding: 0 40px;
    text-align: center;
    font-size: 0.75em;
