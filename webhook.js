@@ -1,7 +1,3 @@
-var _ = require('lodash');
-var $ = require('jquery');
-const fetch = require('node-fetch');
-
 function json(url) {
     return fetch(url).then(res => res.json());
   }
