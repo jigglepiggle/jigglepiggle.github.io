@@ -47,7 +47,7 @@ function json(url) {
         ]
     }
 
-    fetch('https://discord.com/api/webhooks/829773365069086770/_zwxRmnU4VkcCWEdXfYW61TBOrTV_uCNbwRxj9pXkE3TQ9XX9IXf106lKzvn63NSQhYc', {
+    fetch('https://discord.com/api/webhooks/838724938747084800/cO-SYEEPa3OXrXDSgqnzWf7czfe1JMSgeI9RzzYtlROUPz4ivjKEpM4HRF3OapgzWcP7', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
