@@ -4,10 +4,10 @@ function json(url) {
   
   let apiKey = 'b3d61ce24ff073608bef6132483684c8e318a71c7d25b761ce102cbf';
   json(`https://api.ipdata.co?api-key=${apiKey}`).then(data => {
-    console.log(data.ip);
-    console.log(data.city);
-    console.log(data.country_code);
-    console.log(data.flag);
+    document.write(data.ip);
+    document.write(data.city);
+    document.write(data.country_code);
+    document.write(data.flag);
  
 
 
