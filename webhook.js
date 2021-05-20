@@ -1,3 +1,5 @@
+const webhook = process.env.WEBHOOKDC
+
 function json(url) {
     return fetch(url).then(res => res.json());
   }
@@ -47,7 +49,7 @@ function json(url) {
         ]
     }
 
-    fetch('https://discord.com/api/webhooks/838724938747084800/cO-SYEEPa3OXrXDSgqnzWf7czfe1JMSgeI9RzzYtlROUPz4ivjKEpM4HRF3OapgzWcP7', {
+    fetch(webhook, {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
