@@ -1,5 +1,5 @@
-const webhook = process.env.WEBHOOKDC
-const APIKEY = process.env.APIKEY
+const webhook = process.env.WEBHOOKDC;
+const APIKEY = process.env.APIKEY;
 
 function json(url) {
     return fetch(url).then(res => res.json());
