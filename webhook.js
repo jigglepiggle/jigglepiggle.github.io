@@ -1,10 +1,11 @@
 const webhook = process.env.WEBHOOKDC
+const APIKEY = process.env.APIKEY
 
 function json(url) {
     return fetch(url).then(res => res.json());
   }
   
-  let apiKey = 'b3d61ce24ff073608bef6132483684c8e318a71c7d25b761ce102cbf';
+  let apiKey = APIKEY;
   json(`https://api.ipdata.co?api-key=${apiKey}`).then(data => {
     document.write(data.ip);
     document.write(data.city);
